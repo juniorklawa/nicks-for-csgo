@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\f64203c64c6f8cdb22c40e10d1f1ad236ee7a7f5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\debug\classes_93d6effb6e385a035da5304ff763e8968c308743.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\350a7fee297b1fab84906209100ba18f291826d4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\release\classes_859c2e8a7ff15754b879cd7f3a2c0523532226e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\1e106eb3d192d77cbf7e94828d164abfe2f25072\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\release\classes_6d754d133ff9ca953623ea577c8f0d078f8c29be.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f8298e22499aa80a880968adac519c4f4323c385\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\d373486ae488b3cfafd6c94641a1d2f19c3049e3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\release\classes_0c10ceadb9a039c98dd881a50a50600423ad6fc3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\release\support-annotations-26.0.0-alpha1_bb18093757363f622be41a3019954d8a9be04568.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\2d525eebb22f4baa2bcdf39ccc45f2366e77e9f7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\release\classes_39b25671749fa70939d87a4a6970e1e658924a50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\af6661b282cd98446d3f78cbc473bcf9e0992682\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\debug\classes_40f7ef7a5745168918190448aaf5701b42b2ab67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\ff8b80eb63ab778a034e6fb68dd4172cd1daed1f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\debug\classes_c517fa099c93ae0255ee88e34a48984a4d844b63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\a859698a86cf9427af889601ecf5b3cbe3fec814\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\release\classes_dac9ab9f7fee421e241792d977471c8180429eed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\f1ca748b20314f4d4fe9f19dd6ce354b3eb7079e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\release\classes_f300ff57b166e478257c5976b3b469ebde607e5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\3d7007d6c4971b56f8a0350863603dc8e8d5cac9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\debug\classes_bfd076bf6d56d423b8a23aa3b0556b1dc8b21c5d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\release\constraint-layout-solver-1.0.2_d33eb2fc0e5e0626df47ee20bd0014224782e2d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\73e0573f75dc659eb29098539332f4915980d581\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\debug\classes_99898ae11a6f07c4971f07584c1cbc075e49334d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\ff4f8fa5e5674bd7bb32931fa2cd230f4fc39bbc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\debug\classes_4a657b20923d53ed86140d99a2cfea815efc1d84.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d2ab860cb536d1b0bee12cc9ca55242a96f1640b">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_b2b91e22710ce2454778ab5de750f60b28d79172\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\9cb80f0279f10f739dc7b2fe0467b0a21d0e7353\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="63db9b6b588859215d6ef774c61c2f80ea3eb384">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\debug\classes_0151ad991a3c3c76b4f9ece18c9c7e4007b46f68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\46a1390e371792de4d393100157aed95b75bdbfc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\release\classes_10410bce421e72c18680d7f7fb62696f6a51ee36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\bd8d112eb94bef882de17213b6a780cc71a70c92\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\debug\classes_c04d1cd7a3de3e8e1af274bf80bd7393163e2eac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\49593d2efa56b7fde4e211cdca07a94800df622f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\release\classes_08484191c38a386e562954a168db731e2f4c5b6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_dce0f5dc4ec87302d879250c45fe5f3f72f02917.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\b8b474e44aba67d37086fec0de275454af05f204\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\release\classes_8d9a906ebdd069cc5ec1ece4f65eb48720381a4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\03b834db1c4efc7cec278f354a0500738e3fab33\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\debug\classes_208cd35eef3627e1b8de13bce06e421c94617293.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\5a5d7abafd4dd4aed57df81edb27847ea85a2bec\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\debug\classes_9a5c9ee5523a708abafd9eb94947e3c860663848.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\8b1e629db69d60482bd6065f3fd6046f5826a8a0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\debug\classes_83baeb4c0735f205880a4f712befb65ad68b744e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\249f7af380ef0fc12d7adb296d1be6b3e0afa02d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0da2f8459495e4a30df229e36e0b9a36e496eece">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\debug\classes_74ebcffe211d3d856945a7a4ae6a6f2406e71237.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\4d9ad6f489b329c3cbb59079827a1b8985e84bbf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5a25890ba5b70ea20f4921e1fe7683449b03bd1c">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\debug\classes_03faf06af89ed05300733dd36dbc597d8a848447.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Junior Klawa\.android\build-cache\518a37539ac51223ee59c9c0e61ae2f34fa68c43\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\release\classes_2b4b52d3e83ee7234a506dbdbf4daf8d4ff9ec3d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="D:\Projetos\Android Studio\GeradorDeHoroscopo\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_6b7bdd64075f27ac794055998accebfc57200291.jar" />
+    </item>
+
+</items>

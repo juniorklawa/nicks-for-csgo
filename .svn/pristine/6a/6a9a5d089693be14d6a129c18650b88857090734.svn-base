@@ -1,0 +1,198 @@
+package klawapps.com.geradordehoroscopo;
+
+import android.content.Context;
+import android.media.AudioManager;
+import android.media.MediaPlayer;
+import android.provider.MediaStore;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.SoundEffectConstants;
+import android.view.View;
+import android.view.Window;
+import android.widget.Button;
+import android.widget.TextView;
+
+import com.cuboid.cuboidcirclebutton.CuboidButton;
+
+import org.w3c.dom.Text;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Random;
+import java.util.Set;
+import java.util.TreeSet;
+
+import mehdi.sakout.fancybuttons.FancyButton;
+
+public class MainActivity extends AppCompatActivity {
+
+
+    private TextView dataAtual;
+    private TextView txtGerador;
+    private FancyButton btnGerador;
+    final  String[] txtInicio={"Hoje o seu planeta regente, Marte, está finalizando um movimento pelo setor afetivo e criativo.",
+
+                                "Marte está finalizando hoje o trânsito astrológico pelo setor de recursos e talentos.",
+
+                                "Um dia muito significativo nos relacionamentos e alianças.",
+
+                                "Muita energia para eliminar situações que estejam lhe desgastando.",
+
+                                 "Um dia muito importante para a carreira e realização.",
+
+                                 "Um dia muito importante para a saúde e o trabalho ",
+
+                                "Marte, o planeta da ação, motivação e energia sexual passa a atuar em seu signo.",
+            "Mergulhe de cabeça e com confiança em seus projetos e objetivos.",
+
+            "Momento de grandes transformações nas emoções e sentimentos",
+            "É hora de deixar ir o que já não tem mais sentido em sua vida.",
+            "Cuidado com a precipitação e impulsividade que leve a prejuízos financeiros.",
+            "O contato entre Sol e Plutão favorece o desenvolvimento profissional.",
+            "Hoje temos uma conjunção entre Lua e Urano em seu signo.",
+            "O contato entre Sol e Plutão favorece o desenvolvimento profissional",
+            "Um momento de reavaliações e mudanças na vida doméstica e familiar.",
+            "Novidades e mudanças podem caracterizar as amizades.",
+            "O contato entre Sol e Plutão indica importantes relações de trabalho",
+            "É hora de inovar e surpreender no terreno profissional.",
+            "Um momento favorável para a vida material e profissional",
+            "Cuidado com a impaciência e tendência a se jogar de cabeça em novas situações.",
+            "O Sol, em movimento pelo seu signo, faz contato com Plutão.",
+            "É preciso prestar mais atenção na saúde e cuidar de si.",
+            "Um dia de surpresas nos relacionamentos e parcerias",
+            "Um dia muito positivo para alianças, contratos e relacionamentos.",
+            "Fase em que você deve usar com mais consciência o seu poder mental e emocional.",
+            "É hora de agir com mais autonomia no âmbito afetivo.",
+            "Momento em que você deve olhar com mais atenção para a saúde do seu organismo.",
+            "Uma fase positiva para estudos, viagens e ampliação de horizontes.",
+    };
+    final String [] txtMeio = {"Procure manter os pés bem firmes no chão, ao aceitar projetos e emprego.",
+            "Cultive mais os seus talentos e habilidades e busque o aprimoramento.",
+            "Oportunidade de perceber as implicações psicológicas e emocionais que se manifestam sobre seu corpo.",
+            "A fase é de regeneração e transformação de situações.",
+            "A intuição é importante na tomada de decisões ligadas às finanças.",
+            "Trabalhos em equipe e projetos envolvendo instituições estão em pauta.",
+            "A Lua está em seu signo ressaltando as emoções.",
+            "Um bom momento para a resolução de pendências de longa data que vem se arrastando.",
+                                "Você esteve lidando com várias lições amorosas e também ligadas à expressão da liderança e criatividade.",
+                                "Muitas foram as motivações e lições ligadas ao uso de seus recursos e habilidades.",
+                                "É interessante investir no aprimoramento de seus conhecimentos e potenciais.",
+                                "A partir de amanhã, você perceberá uma melhoria relacionada a contratos e relacionamentos.",
+                                "Forte ênfase emocional, material e também em questões de saúde.",
+            "É preciso ponderar, ter calma e discernimento no que diz respeito ao trabalho e emoções.",
+                                "O planeta Marte, seu antigo regente, está findando o movimento pela área profissional.",
+            "Força de renovação e capacidade produtiva e criativa.",
+            "É um momento muito significativo em seus relacionamentos, especialmente os de natureza profissional.",
+            "Novas situações relacionadas ao trabalho, saúde e cotidiano.",
+            "Cuidado com conflitos de poder e atitudes extremistas.",
+            "É preciso que tenha maior consciência da individualidade, mas também da importância das pessoas em sua vida.",
+            "É o momento em que você tem uma maior necessidade de preservação da própria individualidade e autonomia.",
+            "É uma boa oportunidade de agir com mais profissionalismo e excelência, visando atingir seus objetivos.",
+            "Intuição, novidades e surpresas marcam a energia deste dia.",
+            "É uma boa oportunidade de agir com mais profissionalismo e excelência, visando atingir seus objetivos.",
+            "Questões importantes relacionadas às finanças, emoções e saúde estão em pauta.",
+            " É um momento em que intuitivamente surge uma nova ideia em relação aos seus projetos futuros.",
+            "É o momento em que você está se aprimorando, evoluindo e isso tem consequência sobre os relacionamentos.",
+            "Desejo de mais autonomia e iniciativa que se manifesta sobre o trabalho.",
+            "As antigas formas de se relacionar já não fazem mais sentido",
+
+    };
+
+    final String [] txtFim = {"Mercúrio está finalizando o movimento retrógrado e em breve as coisas fluirão com mais naturalidade.",
+            "Transformações importantes que levam a uma vida mais saudável.",
+            "Um dia que pede interiorização, reflexão e resolução de pendências.",
+            "O momento é favorável para uma transformação profissional de objetivos.",
+            "É um dia importante para questões familiares e emocionais.",
+            "A intuição pode ser uma boa aliada em projetos profissionais.",
+            "Este é um momento de reflexões, interiorização e preparação interna para um novo ciclo.",
+            "Poderá entrar em conflito com algumas pessoas devido à divergência de opiniões.",
+            "Você se dá conta de aspectos anteriormente reprimidos, inconscientes ou negligenciados.",
+            "As questões financeiras estão em pauta no momento.",
+                                "Mercúrio está findando hoje um movimento retrógrado que se caracterizou por uma fase de interiorização e reavaliações.",
+                                "O tempo de reavaliações está chegando ao final e é hora de colocar em prática o que você esteve refletindo.",
+                                "Mercúrio não está mais retrógrado, o que facilita a comunicação com as pessoas do seu convívio.",
+                                "Você pode colher resultado de seu empenho e dedicação no trabalho ao longo das últimas semanas.",
+                                "Reavaliações sobre qualidade de vida, bem-estar e saúde.",
+                                "Uma viagem ou estudo pode ter um efeito transformador em sua vida.",
+            "Reflexão sobre seus ideais, crenças e valores marcam o período.",
+            "Uma fase importante para afetividade, criatividade e capacidade produtiva.",
+            "Os cuidados com a saúde e a recuperação da vitalidade e do bem-estar estão favorecidos.",
+            "Cuidado com a impaciência e com atitudes tomadas no calor do momento.",
+            "Os cuidados com a saúde e a recuperação da vitalidade e do bem-estar estão favorecidos.",
+            "Oportunidade de resolver dívidas ou pendências anteriores.",
+            "É uma fase em que você está se aprimorando interiormente e isso tem reflexos emocionais e na família.",
+            "Ouça o que as pessoas têm a lhe dizer e enfrente os seus tabus.",
+            "É preciso que aja intuitivamente e que respeite a individualidade das outras pessoas.",
+            "Dia caracterizado por novidades e mudanças."
+    };
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        //this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        setContentView(R.layout.activity_main);
+
+
+
+       final AudioManager audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
+        dataAtual = (TextView) findViewById(R.id.dataAtual);
+        txtGerador = (TextView) findViewById(R.id.txtGerador);
+        btnGerador = (FancyButton) findViewById(R.id.btnGerador);
+        String date = new SimpleDateFormat("dd/MM/yyyy").format(Calendar.getInstance().getTime());
+
+        dataAtual.setText("Horóscopo de hoje: " + date);
+
+
+
+/*//Vamos sortear 20 números de 0 até 100 sem repetição
+        while (numeros.size() < 20) {
+            numeros.add(rand.nextInt(101));
+        }*/
+
+
+
+        btnGerador.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                audioManager.playSoundEffect(SoundEffectConstants.CLICK);
+
+
+                Set<Integer> numeros = new TreeSet<Integer>();
+                Random rand = new Random();
+
+                //String currentDateTimeString = DateFormat.getDateTimeInstance().format(new Date());
+
+
+
+                String randomI = (txtInicio[rand.nextInt(txtInicio.length)]);
+                String randomM = (txtMeio[rand.nextInt(txtMeio.length)]);
+                String randomF = (txtFim[rand.nextInt(txtFim.length)]);
+
+                //String randomF = (txtFim[new Random().nextInt(txtFim.length)]);
+
+
+                //
+
+               /* int idxI = new Random().nextInt(txtInicio.length);
+                int idxM = new Random().nextInt(txtMeio.length);
+                int idxF = new Random().nextInt(txtFim.length);
+
+                String tI = (txtInicio[idxI]);
+                String tM = (txtMeio[idxM]);
+                String tF = (txtFim[idxF]);*/
+
+
+
+                txtGerador.setText(randomI + " " + randomM + " " + randomF);
+
+
+
+
+            }
+        });
+
+    }
+}

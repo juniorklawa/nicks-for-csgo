@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorBackground"
+    >
+
+
+    <TextView
+            android:id="@+id/txtGerador"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:text=""
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorTextBackground"
+            android:textAlignment="center"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/dataAtual"
+        android:layout_marginTop="20dp"
+        android:elevation="5dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+    <TextView
+        android:id="@+id/dataAtual"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:elevation="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:text="01/02/2017" />
+
+
+
+
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/btnGerador"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="10dp"
+        fancy:fb_borderColor="#FFFFFF"
+        fancy:fb_borderWidth="0dp"
+        fancy:fb_defaultColor="#1db954"
+        fancy:fb_focusColor="#ecf0f1"
+        android:textSize="20sp"
+        fancy:fb_radius="20dp"
+        fancy:fb_text="GERAR HORÓSCOPO"
+        fancy:fb_textColor="#FFFFFF"
+        android:layout_below="@+id/txtGerador"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:id="@+id/credito"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/btnGerador"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:elevation="10dp"
+        android:textStyle="italic"
+        android:textSize="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Todos os textos foram retirados da internet." />
+
+</RelativeLayout>
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nicks para C.S GO</string>
+    <string name="prefix">Prefixo</string>
+    <string name="generate">GERAR NICK</string>
+</resources>

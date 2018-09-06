@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="fadingtextview-1.8.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/9cb80f0279f10f739dc7b2fe0467b0a21d0e7353/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/9cb80f0279f10f739dc7b2fe0467b0a21d0e7353/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tomer/fadingtextview/1.8.1/a2ec6dfd479fd47210851b2387a5ccd6bed5cf80/fadingtextview-1.8.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

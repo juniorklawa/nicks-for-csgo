@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="cuboidcirclebutton-1.0.3">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/4d9ad6f489b329c3cbb59079827a1b8985e84bbf/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/4d9ad6f489b329c3cbb59079827a1b8985e84bbf/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.cuboid/cuboidcirclebutton/1.0.3/192db144d66b4bba3b3c5335c8c9caaabced1b34/cuboidcirclebutton-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
