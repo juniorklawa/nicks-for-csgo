@@ -142,12 +142,13 @@ public class MainActivity extends AppCompatActivity {
         final  String[] txtPalavra={"Cleytin","Bolt","Capitão","Grilo","Noé","Fallen","Pelé","Chimbinha","Jesus","Pão",
                                     "Neymar","Agente","Fighter","Soldado", "Gamer","Defuser","Sniper","Padre","Josiel","Palhaço",
                                     "Professor","Josley","Carteiro","Cachorro","Cão","Lobo","Boi","Macaco","Carlinhos","Piriquito","Crossfiter",
-                                    "Gringo","Jacaré","Bam Bam","Ninja","Noob","General","Camper"
+                                    "Gringo","Jacaré","Bam Bam","Ninja","Noob","General","Camper", "Rato", "Xerife", "Maniaco", "Perito", "Mendigo", "Camper", "Mochila", "Playboy"
         };
         final String [] txtAdjetivo = {"Carnívoro","Carregador","Bala Tensa","Killer","Salvador","Daltônico","Bêbado","Acelerado","Pitoresco",
                                        "Marotador","Clutch Master","do Global","Safadão","Selvagem","Tóxico","do Agreste","com Lasers","Atômico","Chulapa",
                                        "Serelepe","da Audácia","das Smokes","Troll","com Probleminha","Ward","Pescador","Pinador","Baludo","Pistoleiro","da Quebrada",
-                                       "Sinistro","Chavoso","Ousado","da Rocinha","Pistola","Aleluia","Pipoqueiro","Crazy","Expert","Lagado","dos Rush"
+                                       "Sinistro","Chavoso","Ousado","da Rocinha","Pistola","Aleluia","Pipoqueiro","Crazy","Expert","Lagado","dos Rush",
+                                       "dos 30 FPS", "dos Hack", "dos QUEOTA", "do Defuse", "dos Rage", "da Mira Torta", "da Faquinha", "da P90", "do MM", "da Net de Padaria", "dos Prata"
 
         };
 
